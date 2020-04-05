@@ -23,12 +23,12 @@
 	position: relative;
 }
 
-.wrap-card-colors{
+.wrap-card-options{
 	position: absolute;
 	top: -16px;	
 }
 
-.card-colors{
+.card-options{
 	display: inline-block;
 	width: 32px;
 	height: 32px;
@@ -40,6 +40,14 @@
 	overflow: hidden;
 }
 
-.card-colors.isActive{
+.card_delete{
+	background-image: url('../../assets/delete.svg');
+	background-color: white;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card-options.isActive{
 	border-width: 4px;
 }
