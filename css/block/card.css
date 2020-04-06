@@ -25,7 +25,14 @@
 
 .wrap-card-options{
 	position: absolute;
-	top: -16px;	
+	top: -16px;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+
+.card:hover .wrap-card-options{
+	opacity: 1;
+	transition: opacity 0.15s linear;
 }
 
 .card-options{
@@ -38,14 +45,27 @@
 
 	text-indent: -9999px;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .card_delete{
 	background-image: url('../../assets/delete.svg');
-	background-color: white;
+	background-color: #fff;
 	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.card_edit{
+	background-color: #fff;
+	background-image: url('../../assets/edit.svg');
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card-content[contenteditable="true"]{
+	outline: 2px dotted rgba(0, 0, 0, 0.5);
 }
 
 .card-options.isActive{
