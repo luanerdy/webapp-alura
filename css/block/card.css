@@ -15,12 +15,12 @@
 }
 
 .card{
-	display: inline-block;
 	box-sizing: border-box;
 
 	padding: 32px 16px 16px;
-	width: 25%;
+	width: 24%;
 	position: relative;
+	margin: 0 0 1%;
 }
 
 .wrap-card-options{

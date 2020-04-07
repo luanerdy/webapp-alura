@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/block/header.css">
+	<link rel="stylesheet" type="text/css" href="css/block/newCard.css">
 	<link rel="stylesheet" type="text/css" href="css/block/card.css">
 </head>
 <body>
@@ -28,8 +29,13 @@
 		</nav>
 	</header>
 
+	<form action="#" method="post" class="newCard">
+		<textarea class="newCard-content" cols="30" rows="10" placeholder="Digite aqui o conteúdo do seu cartão" required></textarea>
+		<input class="newCard-action" type="submit" value="salvar">
+	</form>
+
 	<section class="container">
-		<ol>
+		<ul class="wrap-card">
 			<li class="card" data-color="first">
 				<nav class="wrap-card-options">
 					<ul>
@@ -106,9 +112,10 @@
 					Aliquam amet et culpa eveniet ipsam numquam deserunt inventore, neque fugiat, quia esse tempora quae porro impedit ut consequuntur deleniti! Voluptas distinctio excepturi consectetur nostrum autem quaerat, dolorem cumque? Tenetur dolorem rem, eius iste deleniti culpa quia, similique ad repudiandae?
 				</p>
 		</li>
-		</ol>
+		</ul>
 	</section>
 
 <script type="text/javascript" src="js/block/card.js"></script>
+<script type="text/javascript" src="js/block/newCard.js"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 	box-sizing: content-box;
 }
 
-body{
+body *{
 	font-family: 'Verdana', sans-serif;
 }
 
