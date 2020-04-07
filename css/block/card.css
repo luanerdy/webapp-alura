@@ -15,12 +15,19 @@
 }
 
 .card{
+	display: flex;
+	align-items: center;
+
 	box-sizing: border-box;
 
 	padding: 32px 16px 16px;
 	width: 24%;
+	min-height: 150px;
 	position: relative;
 	margin: 0 0 1%;
+
+	font-size: 20px;
+
 }
 
 .wrap-card-options{
